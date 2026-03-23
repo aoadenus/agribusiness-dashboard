@@ -1,62 +1,57 @@
-# Brazil Agribusiness Dashboard
+# 🌱 Brazil Agribusiness Dashboard
 
-**Live Demo → [aoadenus.github.io/agribusiness-dashboard](https://aoadenus.github.io/agribusiness-dashboard/)**
+> Interactive data visualization of Brazilian soybean production, exports, and global market position — built with React and verified USDA data.
 
----
-
-## About This Project
-
-This dashboard started as a research paper. For my Agribusiness in Brazil industry analysis project at the University of Houston, I spent a semester studying how digital transformation — precision agriculture, IoT, and AI — is reshaping one of the world's most critical food systems.
-
-After finishing the paper, I wanted to take it further. Research sitting in a document felt incomplete. So I rebuilt the findings as an interactive data visualization using real USDA data, because I think the best way to communicate data is to let people explore it themselves.
+[![Live Demo](https://img.shields.io/badge/▶_Live_Demo-GitHub_Pages-222222?style=for-the-badge&logo=github)](https://aoadenus.github.io/agribusiness-dashboard/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/aoadenus/agribusiness-dashboard)
 
 ---
 
-## What It Shows
+## Overview
 
-The dashboard pulls from **USDA FAS PSD, USDA AMS Transport Reports, Comex Stat MDIC, and CONAB Brazil** to visualize:
+This dashboard started as a semester research paper on digital transformation in Brazilian agriculture. After completing the written analysis, I wanted to take the findings further — so I rebuilt the data as an interactive visualization using verified USDA sources.
 
-- 🫘 **Soybean production** from 2018/19 through 2024/25 (estimated) — including the 2021/22 drought dip and the record 154 MMT harvest in 2022/23
-- 📦 **Export volumes** — Brazil hit a record 98.8 MMT in 2024, nearly double U.S. soybean exports
-- 🗺️ **Regional output** by state — Mato Grosso alone accounts for 27% of national production
-- 🌍 **Global market position** — Brazil overtook the U.S. as the world's top soybean exporter in 2013 and has grown its lead every year since
+The goal was simple: research sitting in a document reaches fewer people than a dashboard someone can explore themselves. Every number is sourced and cited. The project reflects how I think about data communication — accuracy first, then clarity.
 
 ---
 
-## Why I Built It This Way
+## Features
 
-At Accellux, I worked on SAP S/4HANA FICO implementations where a big part of the job was making complex financial data readable and actionable for enterprise clients. That experience shaped how I think about data presentation — accuracy matters, but so does clarity.
-
-This project reflects that. Every number on the dashboard is sourced and cited. The goal was to build something a recruiter, a professor, or a policy analyst could all open and immediately understand.
+- 📈 Soybean production trend from 2018/19 through 2024/25 (estimated), including the 2021/22 drought year and the record 154 MMT harvest in 2022/23
+- 📦 Export volume data showing Brazil's record 98.8 MMT in 2024 — nearly double U.S. soybean exports
+- 🗺️ Regional production breakdown by state, with Mato Grosso accounting for 27% of national output
+- 🌍 Global market position chart tracking Brazil's lead over the U.S. since overtaking in 2013
+- 💡 Fully interactive charts with hover tooltips and responsive layout
+- ✅ All data sourced from USDA FAS PSD, USDA AMS, Comex Stat MDIC, and CONAB Brazil
 
 ---
 
 ## Tech Stack
 
-| Tool | Purpose |
-|------|---------|
-| React + Vite | Frontend framework |
-| Recharts | Charts and data visualization |
-| GitHub Pages | Deployment |
+| Layer | Technology |
+|---|---|
+| Framework | React + Vite |
+| Charts | Recharts |
+| Language | JavaScript (ES6+) |
+| Data Sources | USDA FAS PSD, USDA AMS, Comex Stat, CONAB |
+| Deployment | GitHub Pages |
 
 ---
 
-## Data Sources
+## What I Learned
 
-| Source | Data Used |
-|--------|-----------|
-| USDA FAS PSD | Soybean production, planted area, yield |
-| USDA AMS Transport Reports | Export volumes |
-| Comex Stat / MDIC Brazil | Export verification |
-| CONAB Brazil | Regional production shares |
-| USDA IPAD | Yield trends and crop travel reports |
+- How to turn academic research into a public-facing data product that communicates the same findings more effectively
+- Sourcing and verifying agricultural data from multiple government databases (USDA, CONAB, Comex Stat)
+- Designing chart sequences that tell a story — production → exports → regional → global — rather than just displaying numbers
+- Applying data presentation principles from enterprise analytics work to a broader, non-technical audience
+- Deploying a React + Vite project to GitHub Pages and handling base URL configuration for production
 
 ---
 
-## About Me
+## Contact
 
-I'm Tutu — a Computer Information Systems student at the University of Houston (graduating May 2027) with a 3.50 GPA, focused on enterprise systems, data analytics, and business technology.
+**Adetutu (Tutu) Adenusi**
+📧 aoadenus@cougarnet.uh.edu · 📞 (713) 724-2642
+🔗 [linkedin.com/in/adetutuadenusi](https://www.linkedin.com/in/adetutuadenusi)
+💻 [github.com/aoadenus](https://github.com/aoadenus)
 
-I'm currently seeking **Summer 2026 internship opportunities** in business analysis, systems analysis, data analytics, or enterprise technology.
-
-📎 [LinkedIn](https://www.linkedin.com/in/adetutuadenusi) · 📧 adetutu004@gmail.com
