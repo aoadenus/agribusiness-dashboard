@@ -3,7 +3,8 @@
 > Interactive data visualization of Brazilian soybean production, exports, and global market position — built with React and verified USDA data.
 
 [![Live Demo](https://img.shields.io/badge/▶_Live_Demo-GitHub_Pages-222222?style=for-the-badge&logo=github)](https://aoadenus.github.io/agribusiness-dashboard/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/aoadenus/agribusiness-dashboard)
+
+
 
 ---
 
